@@ -1,9 +1,7 @@
 #! /usr/bin/env python3.8
 import pyperclip
 import passwordlocker
-from password
-
-passwordlocker import User, Credential
+from   passwordlocker import User, Credential
 
 def verify_user(first_name, password):
     '''
