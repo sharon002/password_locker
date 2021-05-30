@@ -107,7 +107,7 @@ def main():
                                 password = input('Enter your password: ').strip()
                                 break
                             elif psw_choice == 'gp':
-                                password = generate_password(psk200)
+                                password = generate_password(pwd200)
                                 break
                             elif psw_choice == 'ex':
                                 break

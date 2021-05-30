@@ -16,7 +16,7 @@ As a user I would like to:
 ## Specifications
 | Behaviour | Input | Output |
 | :---------------- | :---------------: | ------------------: |
-| Display codes for navigation | **In terminal: $./locker.py** | Welcome, choose an option: ca-Create Account, li-Log In, ex-Exit |
+| Display codes for navigation | **In terminal: $./passwordlocker.py** | Welcome, choose an option: ca-Create Account, li-Log In, ex-Exit |
 | Display prompt for creating an account | **Enter: ca** | Enter your first name, last name and password |
 | Display prompt for login in | **Enter: li** | Enter your account name and password |
 | Exit application | **Enter: ex** | Exit the current navigation stage |
