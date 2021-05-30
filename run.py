@@ -134,7 +134,7 @@ def main():
                     elif short_code == 'copy':
                         print(' ')
                         chosen_site = input('Enter the site name for the credential password to copy: ')
-                        copy_credential(chosen_site)
+                        copy_credential(twitter)
                         print('')
                     else:
                         print('Oops! Wrong option entered. Try again.')
