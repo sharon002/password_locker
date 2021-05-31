@@ -34,7 +34,7 @@ def save_credential(credential):
     Credential.save_credentials(credential)
 
 
-def display_credentials(user_name):
+def display_credential(user_name):
     '''
     Function to display credentials saved by a user
     '''
@@ -102,14 +102,14 @@ def main():
                                 'Please choose an option for entering a password: \n ep-enter existing password \n gp-generate a password \n ex-exit')
                             psw_choice = input('Enter an option: ').lower().strip()
                             print("-" * 60)
-                            if psw_choice == 'ep':
+                            if pwd_choice == 'ep':
                                 print(" ")
                                 password = input('Enter your password: ').strip()
                                 break
-                            elif psw_choice == 'gp':
+                            elif pwd_choice == 'gp':
                                 password = generate_password(pwd200)
                                 break
-                            elif psw_choice == 'ex':
+                            elif pwd_choice == 'ex':
                                 break
                             else:
                                 print('Oops! Wrong option entered. Try again.')
