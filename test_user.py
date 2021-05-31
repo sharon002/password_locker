@@ -23,7 +23,7 @@ class TestUser(unittest.TestCase):
 
     def test_del_user(self):
         self.new_user.save_user()
-        test_user = User("ben","12345")
+        test_user = User("mercy","12345")
         test_user.save_user()
         self.new_user.del_user()
         self.assertEqual(len(User.user_list),1)
